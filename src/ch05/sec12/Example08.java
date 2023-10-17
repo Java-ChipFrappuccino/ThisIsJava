@@ -11,15 +11,16 @@ public class Example08 {
 		int totalStudent = 0;
 		int totalSum = 0;
 		for (int i = 0; i < array.length; i++) {
-			totalStudent += array[i].length;
+//			totalStudent += array[i].length;
 			for (int j = 0; j < array[i].length; j++) {
 				totalSum += array[i][j];
+				totalStudent++;
 			}
 		}
 		System.out.println(totalStudent);
 		System.out.println(totalSum);
 		double totalAvg = (double)totalSum / totalStudent;
-		System.out.printf("평균점수: %3.1f", totalAvg );
+		System.out.printf("평균점수: %3.1f", totalAvg ); 
 			
 		}
 	}
