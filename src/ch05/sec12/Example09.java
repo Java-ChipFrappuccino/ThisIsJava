@@ -59,8 +59,7 @@ public class Example09 {
 			break;
 			}
 		}
-			System.out.println("프로그램 종료f");
-			System.out.println("xptmxm");
+			System.out.println("프로그램 종료");
 	}
 
 }
