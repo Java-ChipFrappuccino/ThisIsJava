@@ -17,6 +17,5 @@ public class Course {
     public static void registerCourse3(Applicant<? super Worker> applicant) {
         System.out.println(applicant.kind.getClass().getSimpleName() +
                 "이(가) Course3을 등록함");
-
     }
 }
